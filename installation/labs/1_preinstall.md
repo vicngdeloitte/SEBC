@@ -14,24 +14,24 @@ i-08354488aa58304d6	| ec2-13-250-42-125.ap-southeast-1.compute.amazonaws.com	| i
 
 ### Swappiness configuration
 
-<img src="./swappinesscheck1.png"/>
+<img src="./swappinesscheck1.PNG"/>
 
 
 After modifying swappiness and rebooting
-<img src="swappinesscheck2.png"/>
+<img src="swappinesscheck2.PNG"/>
 Instructions based on this link:
 https://unix.stackexchange.com/questions/265713/how-to-configure-swappiness-in-linux-memory-management
 
 
 ### Checking the mount attributes
-<img src="./mountattributes1.png"/>
+<img src="./mountattributes1.PNG"/>
 
 ### Disable transparent hugepage
 Checking the THP before modifying
-<img src="./thp1.png"/>
+<img src="./thp1.PNG"/>
 
 Checking the THP after rebooting
-<img src="./thp2.png"/>
+<img src="./thp2.PNG"/>
 
 Instructions based on this link:
 https://blacksaildivision.com/how-to-disable-transparent-huge-pages-on-centos
@@ -39,22 +39,22 @@ https://blacksaildivision.com/how-to-disable-transparent-huge-pages-on-centos
 
 
 ### Checking the network config
-<img src="./networkconfig.png"/>
+<img src="./networkconfig.PNG"/>
 
 ### nslookup and reverse nslookup
 
 Install nslookup : <code>yum install bind-utils</code>
-<img src="./nslookup.png" />
+<img src="./nslookup.PNG" />
 
 ### nscd service
 Install nscd : <code>yum install nscd</code>
-<img src="./nscd.png" />
+<img src="./nscd.PNG" />
 
 Instructions based on this link:
 http://www.unixmantra.com/2014/07/how-to-enable-name-service-cache-daemon-nscd.html
 
 ### ntpd service
-<img src="./ntpd.png" />
+<img src="./ntpd.PNG" />
 Instructions based on this link:
 https://www.tecmint.com/install-ntp-server-in-centos/
 
@@ -102,4 +102,4 @@ Final solution: Turn on all TCP ports for Security group. However, this is not t
 
 
 ## Completed screen
-<img src="./3_cm_installed.PNG" />
+<img src="./3_cm_installed.png" />
